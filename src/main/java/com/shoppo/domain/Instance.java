@@ -68,7 +68,7 @@ public abstract class Instance {
         this.serverPort = serverPort;
         return this;
     }
-
+/*A*/
     private File buildPathFile(File parent){
         if(name == null || !name.matches("[A-Za-z]{0,20}"))
             throw new IllegalArgumentException("invalid name!");
